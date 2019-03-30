@@ -7,3 +7,11 @@ Created on Thu Jan 10 01:09:05 2019
 """
 
 from geotext import GeoText
+places = GeoText("Delhi is not near")
+print(places.cities)
+
+c=10
+if c>5:
+    print("")
+else:
+    print("no")
